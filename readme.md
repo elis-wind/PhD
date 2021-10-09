@@ -8,22 +8,18 @@ Copyright: [Fédéric Pont](https://github.com/FredPont)
 
 Gets list of adjectives from Ruscorpora
 
-*Input
+**Input**
 
 - Link personalized with:
 
---a given final segment of an adjective (default \*ный)
+    - a given final segment of an adjective (default \*ный)
+    - number of documents per page (default 100)
+    - number of examples per document (default 100)
+    - Total number of pages for a given segment (default 1037 for \*ный)
 
---number of documents per page (default 100)
+**Output**
 
---number of examples per document (default 100)
+- A .csv file per page with 
 
-- Total number of pages for a given segment (default 1037 for \*ный)
-
-*Output
-
-A .csv file per page with 
-
-- Lemma
-
-- Count
+    - Lemma
+    - Count
