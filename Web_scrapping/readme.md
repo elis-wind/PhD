@@ -1,4 +1,4 @@
-#Web scrapping scripts
+# Web scrapping scripts
 
 `get_adj.pl` 
 
