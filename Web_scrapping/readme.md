@@ -22,3 +22,7 @@ Gets list of adjectives from Ruscorpora
 
     - Lemma of adjective
     - Lemma count
+
+`get_adj_context.py`
+
+`get_nn_context.py`
