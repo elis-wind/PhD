@@ -39,7 +39,7 @@ Get the context for each adjective  from Ruscorpora
 
 **Output**
 
-- A .csv file per suffix with all the contexts availble on the page
+- A file per final segment with all the contexts availble on the page
 
 `get_nn_context.py`
 
@@ -49,4 +49,4 @@ Get the context for each adjective  from Ruscorpora
 
 **Output**
 
-- A .csv file per noun with all the contexts availble on the page
+- A .txt file per noun with all the contexts availble on the page
