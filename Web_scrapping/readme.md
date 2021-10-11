@@ -1,31 +1,24 @@
 # Web scrapping scripts
 
-`get_adj.pl` 
+`get_adj.py` 
 
-Copyright: [Fédéric Pont](https://github.com/FredPont)
-
-Gets list of adjectives from Ruscorpora
+Gets list of adjectives from new version of Ruscorpora
 
 **Input**
 
-- Link personalized with:
-
-    - a given final segment of an adjective (default \*ный)
-    - number of documents per page (default 100)
-    - number of examples per document (default 100)
-
-- Total number of pages for a given segment (default 1037 for \*ный)
+- `corpora.txt`: the list of subcorpora to extraxt adjectives from
+- `segments.txt`: the list of final segments of adjectives to extract
 
 **Output**
 
-- A .csv file per suffix page with: 
+- A .csv file per corpus & segment with: 
 
     - Lemma of adjective
     - Lemma count
 
 `get_adj_context.py`
 
-Get the context for each adjective  from Ruscorpora
+Get the context for each adjective from old version of Ruscorpora
 
 **Input**
 
