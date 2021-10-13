@@ -2,7 +2,7 @@
 
 1. `get_adj.py` 
 
-*Gets a list of adjectives from old version of Ruscorpora
+*Gets a list of adjectives from old version of Ruscorpora*
 
 **Input**
 
@@ -18,7 +18,7 @@
 
 2. `get_adj_context.py`
 
-*Gets contexts for each adjective from old version of Ruscorpora
+*Gets contexts for each adjective from old version of Ruscorpora*
 
 **Input**
 
@@ -36,7 +36,7 @@
 
 3. `get_nn_context.py`
 
-*Gets contexts for each base noun from old version of Ruscorpora
+*Gets contexts for each base noun from old version of Ruscorpora*
 
 **Input**
 
