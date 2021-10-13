@@ -1,11 +1,11 @@
-# Scripts used for my PhD research
+# Scripts for PhD
 
 ## Web_scrapping
 
 Scripts to extract data from old version of [Ruscorpora](https://ruscorpora.ru/old/search-main.html)
 
-1. `get_adj.pl`: extracts lists of adjectives with their frequencies
+1. lists of adjectives with their frequencies
 
-2. `get_adj_context.py`: extracts contexts for adjectives
+2. contexts for each adjective
 
-3. `get_nn_context.py`: extracts contexts for base nouns
+3. contexts for each base noun

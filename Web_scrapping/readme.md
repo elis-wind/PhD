@@ -2,7 +2,7 @@
 
 `get_adj.py` 
 
-Gets list of adjectives from new version of Ruscorpora
+Gets list of adjectives from old version of Ruscorpora
 
 **Input**
 
