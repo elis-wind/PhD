@@ -8,12 +8,13 @@
 
 - `corpora.txt`: the list of subcorpora to extraxt adjectives from
 - `segments.txt`: the list of final segments of adjectives to extract
+- `prefix.txt`: the list of caracters to search before each segment
 
 **Output**
 
-- A .csv file per corpus & segment with: 
+- A .csv file per corpus & prefix+segment with: 
 
-    - Lemma of adjective
+    - Adjectival lemma
     - Lemma count
 
 2. `get_adj_context.py`
