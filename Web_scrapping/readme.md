@@ -1,6 +1,6 @@
 # Web scrapping scripts
 
-1. `get_adj.py` 
+## `get_adj.py` 
 
 *Gets a list of adjectives from old version of Ruscorpora*
 
@@ -17,7 +17,7 @@
     - Adjectival lemma
     - Lemma count
 
-2. `get_adj_context.py`
+## `get_adj_context.py`
 
 *Gets contexts for each adjective from old version of Ruscorpora*
 
@@ -35,7 +35,7 @@
 
 - A file per final segment with all the contexts availble on the page
 
-3. `get_nn_context.py`
+## `get_nn_context.py`
 
 *Gets contexts for each base noun from old version of Ruscorpora*
 
