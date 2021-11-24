@@ -17,6 +17,19 @@
     - Adjectival lemma
     - Lemma count
 
+## `get_freq.py` 
+
+*Gets frequencies from old version of Ruscorpora*
+
+**Input**
+
+- `corpora.txt`: the list of subcorpora to extraxt adjectives from
+- `word_list.txt`: the list of words for which frequencies should be extracted from each subcorpora
+
+**Output**
+
+- Word and its frequency per each subcorpus
+
 ## `get_adj_context.py`
 
 *Gets contexts for each adjective from old version of Ruscorpora*
@@ -41,7 +54,7 @@
 
 **Input**
 
-- List of nouns
+- `nn_list.txt`: list of nouns for which the context should be extracted
 
 **Output**
 

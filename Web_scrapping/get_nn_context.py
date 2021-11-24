@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from re import split
 import regex as re
 
-in_file = open('nn_list_high.txt', 'r')
+in_file = open('nn_list.txt', 'r')
 lines = in_file.readlines()
 in_file.close()
 
