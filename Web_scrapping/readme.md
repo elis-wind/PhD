@@ -28,7 +28,7 @@
 
 **Output**
 
-- Word and its frequency per each subcorpus
+- `out.txt`: a file with words and their frequencies per each subcorpus
 
 ## `get_adj_context.py`
 
