@@ -4,10 +4,14 @@
 
 Scripts to extract data from old version of [Ruscorpora](https://ruscorpora.ru/old/search-main.html)
 
-1. lists of adjectives (based on their endings) with their frequencies
+1. lists of adjectival lemmas (based on their final segment) with their frequencies
 
-2. frequency for each adjective or noun
+2. frequencies for each adjective or noun
 
-3. contexts for each adjective
+3. contexts for each adjective or noun
 
-4. contexts for each base noun
+##Data_constitution
+
+1. clean data for list of adjectival lemmas
+
+2. data set of doublets
