@@ -6,14 +6,14 @@
 
 **Input**
 
-- A .txt file per segment & corpus with: 
+- A folder with .txt file per segment & corpus with: 
 
     - Adjectival lemma
     - Lemma count
 
 **Output**
 
-- A .csv file per segment & corpus with: 
+- A folder with .csv file per segment & corpus with: 
 
     - Dropped duplicates
 
