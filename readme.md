@@ -10,7 +10,7 @@ Scripts to extract data from old version of [Ruscorpora](https://ruscorpora.ru/o
 
 3. contexts for each adjective or noun
 
-##Data_constitution
+## Data constitution
 
 1. clean data for adjectival lemmas
 
