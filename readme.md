@@ -1,6 +1,6 @@
 # Scripts for PhD
 
-## Web_scrapping
+## Web_scraping
 
 Scripts to extract data from old version of [Ruscorpora](https://ruscorpora.ru/old/search-main.html)
 
@@ -10,7 +10,7 @@ Scripts to extract data from old version of [Ruscorpora](https://ruscorpora.ru/o
 
 3. contexts for each adjective or noun
 
-## Data constitution
+## Data_constitution
 
 1. clean data for adjectival lemmas
 
