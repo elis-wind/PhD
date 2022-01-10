@@ -12,6 +12,6 @@ Scripts to extract data from old version of [Ruscorpora](https://ruscorpora.ru/o
 
 ##Data_constitution
 
-1. clean data for list of adjectival lemmas
+1. clean data for adjectival lemmas
 
 2. data set of doublets

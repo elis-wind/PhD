@@ -1,0 +1,5 @@
+main
+paper
+murco&accent=1
+poetic
+spoken
