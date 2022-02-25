@@ -41,12 +41,9 @@ for line in lines:
         url = "https://search1.ruscorpora.ru/search.xml?sort=gr_tagging&out=normal&dpp=100&spd=100&seed=10276&env=alpha&mycorp=&mysent=&mysize=&mysentsize=&mydocsize=&text=lexform&mode=main&lang=ru&nodia=1&req="+req+"&p="+str(g)
         try:
             response = requests.get(url)
-            #print(url, response)
             soup = BeautifulSoup(response.text, "html.parser")
-            #print(soup.prettify())
             ol = soup.find("ol")
             exemple = ol.text
-            #print(exemple)
             out_file.write(exemple)
             print(g)
         except:

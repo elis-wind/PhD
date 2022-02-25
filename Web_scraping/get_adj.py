@@ -1,5 +1,4 @@
 import requests
-#import urllib.request
 from urllib import request
 import time
 from bs4 import BeautifulSoup, NavigableString, Tag
@@ -43,7 +42,6 @@ for corpus in corpora:
 
             #get examples from each page for each word
             for g in range(0, int(pages)):
-                #print(g)
                 url2 = "https://search1.ruscorpora.ru/search.xml?sort=gr_tagging&out=normal&dpp=50&spd=100&seed=8455&env=alpha&mycorp=&mysent=&mysize=&mysentsize=&mydocsize=&text=lexgramm&mode="+corpus+"&lang=ru&nodia=1&parent1=0&level1=0&lex1=*"+pref+segment+"&gramm1=A&sem1=&sem-mod1=sem&sem-mod1=sem2&flags1=&m1=&parent2=0&level2=0&min2=1&max2=1&lex2=&gramm2=&sem2=&sem-mod2=sem&sem-mod2=sem2&flags2=&m2=&p="+str(g)
                 try:
                     response2 = requests.get(url2)
@@ -55,10 +53,8 @@ for corpus in corpora:
                     lemmas = [[d.text for d in r.findAll('td')] for r in lemma_table.findAll('tr')]
                     lemmas = "\n".join("\t".join(item for item in line) for line in lemmas)
                     lemmas = re.sub(r'Леммы\n','',lemmas) #removing Леммы mention
-                    #print(lemmas)
                     print("writing entries found for", pref,segment, "in", corpus, "at page", g)
                     out_file.write(lemmas+"\n")
                 except:
                     print("no table found for", pref,segment, "in", corpus, "at page", g)
-                    #print(g)
                     continue
