@@ -15,3 +15,7 @@ Scripts to extract data from old version of [Ruscorpora](https://ruscorpora.ru/o
 1. clean data for adjectival lemmas
 
 2. data set of doublets
+
+## Dependency parsing
+
+1. lists of nouns modified by each adjective
