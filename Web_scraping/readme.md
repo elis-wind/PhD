@@ -17,7 +17,7 @@
     - Adjectival lemma
     - Lemma count
 
-## `get_freq.py` 
+## `get_type_freq.py` 
 
 *Gets frequencies from old version of Ruscorpora*
 

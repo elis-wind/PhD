@@ -6,9 +6,11 @@ Scripts to extract data from old version of [Ruscorpora](https://ruscorpora.ru/o
 
 1. lists of adjectival lemmas (based on their final segment) with their frequencies
 
-2. frequencies for each adjective or noun
+2. type frequencies for each adjective or noun
 
-3. contexts for each adjective or noun
+3. token frequencies for each adjective or noun
+
+4. contexts for each adjective or noun
 
 ## Data_constitution
 
@@ -16,6 +18,6 @@ Scripts to extract data from old version of [Ruscorpora](https://ruscorpora.ru/o
 
 2. data set of doublets
 
-## Dependency parsing
+3. lists of nouns modified by each adjective
 
-1. lists of nouns modified by each adjective
+4. years when each adjective was attested
