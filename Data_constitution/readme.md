@@ -1,12 +1,12 @@
-# Data Costitution scripts
+# Data Constitution scripts
 
-## `adjectives.py` 
+## `no_duplicates.py` 
 
-*Gets raw tables of adjectives + frequencies from Web Scraping*
+*Drops duplicates for tables of adjectives + adds frequencies*
 
 **Input**
 
-- A folder with .txt file per segment & corpus with: 
+- A folder with .txt file per segment & corpus (from Web Scraping) with: 
 
     - Adjectival lemma
     - Lemma count
@@ -17,17 +17,17 @@
 
     - Dropped duplicates
 
-## `doublets.py` 
+## `open_url.py` 
 
-*Gets ...*
+*Searches words from a list in the main corpus of RusCorpora and opens pages with results in a browser*
 
 **Input**
 
-- ...
+- `word_list.txt` file with the list of words to query
 
 **Output**
 
-- ...
+- open web pages with the result of each query in the main corpus of RusCorpora
 
 ## `dependency_parsing.py` 
 
