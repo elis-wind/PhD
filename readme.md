@@ -12,10 +12,18 @@ Scripts to extract data from old version of [Ruscorpora](https://ruscorpora.ru/o
 
 ## Data_constitution
 
+Supplementary data
+
 1. clean data for adjectival lemmas
 
-2. data set of doublets
+2. open RusCorpora pages from a list of queries (helper function)
 
 3. lists of nouns modified by each adjective
 
 4. years when each adjective was attested
+
+## Feature engineering
+
+1. scores of Nativeness
+
+2. scores of Animacy
