@@ -23,9 +23,13 @@ for word in words:
     # Wikitionary
     url3 = "https://ru.wiktionary.org/wiki/"+word
 
+    # academic.ru
+    url4 = "https://dic.academic.ru/searchall.php?SWord="+word
+
 
     webbrowser.open(url1, new=2)
     webbrowser.open(url2, new=2)
     webbrowser.open(url3, new=2)
+    webbrowser.open(url4, new=2)
 
     time.sleep(2) #prevent "429 Too Many Requests" error
