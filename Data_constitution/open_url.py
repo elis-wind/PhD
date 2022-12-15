@@ -3,12 +3,14 @@ import time
 #import urllib.request
 from urllib import request
 import webbrowser
+import regex as re
 
 with open('word_list.txt', 'r') as f:
     words = f.read().splitlines()
 
     
 for word in words:
+    letter = re.sub(r'^(.).*', r'\1', word)
     segment = request.quote(word.encode('cp1251'))
       
     # Old version of Ruscorpora  
@@ -26,10 +28,18 @@ for word in words:
     # academic.ru
     url4 = "https://dic.academic.ru/searchall.php?SWord="+word
 
+    # grammar dictionary Zaliznjak
+    url5 = "https://gramdict.ru/search/"+word
 
-    webbrowser.open(url1, new=2)
-    webbrowser.open(url2, new=2)
-    webbrowser.open(url3, new=2)
-    webbrowser.open(url4, new=2)
+    # Vasmer
+    url6 = "https://lexicography.online/etymology/vasmer/"+letter+"/"+word
+
+
+    #webbrowser.open(url1, new=2)
+    #webbrowser.open(url2, new=2)
+    #webbrowser.open(url3, new=2)
+    #webbrowser.open(url4, new=2)
+    #webbrowser.open(url5, new=2)
+    webbrowser.open(url6, new=2)    
 
     time.sleep(2) #prevent "429 Too Many Requests" error
