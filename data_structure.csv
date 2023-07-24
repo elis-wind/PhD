@@ -1,0 +1,28 @@
+`Nom`	Base noun
+`FreqN`	Total frequency of base noun (general corpus, newspapers, multimedia, oral, poetic) 
+`SourceN`	Etymology of the base noun (`autre` = foreign origin; `slave` = Slavic origin)
+`BigramN`	Bigrams of the base noun
+`Score_etym`	Etymological score of the base noun
+`ClSem_p`	Semantic class of proper nouns (`1` = proper; `0` = common)
+`ClSem_h`	Semantic class of human/animated nouns (`1` = human/animated; `0` = non-human/non-animated)
+`ClSem_c`	Semantic class of concrete nouns (`1` = concrete; `0` = non-concrete)
+`ClSem_a`	Semantic class of abstract nouns (`1` = abstract; `0` = non-abstract)
+`Score_p`	Average distance of the 5 nearest neighbors of the `ClSem_p` class
+`Score_h`	Average distance of the 5 nearest neighbors of the `ClSem_h` class
+`Score_c`	Average distance of the 5 nearest neighbors of the `ClSem_c` class
+`Score_a`	Average distance of the 5 nearest neighbors of the `ClSem_a` class
+`SyllN`	Length of base noun in syllables (`1` = one syllable, `2` = two syllables, etc. up to `5+` = five syllables or more)
+`AccSyllN`	Stress position in the nominative singular form of the noun (`d` = last syllable, `ad` = penultimate syllable; `aad+` antepenultimate syllable and further back)
+`AccZal`	Accentual types according to Zaliznjak (`0` = ininflectible nouns; from `a` to `f` : for inflectible nouns)
+`ClFlex`	Canonical inflection classes (`I` = first; `II` = second; `III` = third)
+`ClFlexZal`	Inflection classes according to Zaliznjak (`0` = indeclinable nouns; from `1` to `8` : for declinable nouns)
+`Genre`	Genders of the base noun (`m` = masculine; `f` = feminine; `n` = neuter)
+`AllomV`	Vowel allomorphy in the radicals of the base noun (`1` = present; `0` = absent)
+`AllomC`	Consonant allomorphies in the radicals of the base noun (`0` = absent; `mouil` : mouillure; `palat` = palatalization)
+`Segment`	Segmental allomorphies of the themes of the base noun (`0` = absent; `ajout` = addition; `suppr` = deletion; `inf` = interference; `rempl` = modification)
+`Adjectif`	Denominal adjective
+`Contexte`	Context for hapax
+`FreqA`	Total frequency of adjectives (general corpus, newspapers, multimedia, oral, poetic)
+`Radical`	Radical of adjectives
+`DPhoR`	Last phoneme of radicals (`cDent` = dental consonant; `cAlv` = alveolar consonant; `cLab` = labial consonant; `cVel` = velar consonant; `Vow` = vowel)
+`SuffDerA`	Derivational suffix of adjectives (`-n-`, `-sk-`, `-Ov-`)

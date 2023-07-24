@@ -29,24 +29,6 @@
 
 - open web pages with the result of each query in the main corpus of RusCorpora
 
-## `wikitionary_phono.py` 
-
-*Webscraps phonological information, if available, from Wikitionary*
-
-**Input arguments**
-
-- path to data frame file
-
-- column corresponding to queries
-
-- column to output the phonological structure
-
-*Example*: `python wikitionary_phono.py test.csv Base Phono`
-
-**Output**
-
-- Rewrites data frame inserting the info on phonological structure if phonoloivcal structure is not yet present.
-
 ## `dependency_parsing.py` 
 
 *Gets all nouns with are modified by an adjective in question from extracted contexts from Ruscorpora*
@@ -62,17 +44,3 @@
     - Adjective
     - Modified Noun
     - Corpus
-
-## `years.py` 
-
-*Gets all years for each token for a given lemma from extracted contexts from Ruscorpora*
-
-**Input**
-
-- `corpus_adjective.txt`: contexts for adjective from a particular corpus
-
-**Output**
-
-- A .csv file per adjective & corpus with: 
-
-    - Year

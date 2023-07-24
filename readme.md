@@ -1,4 +1,12 @@
-# Scripts for PhD
+# PhD (scripts and data)
+
+## RuDénom.csv
+
+Database of 12 592 Russian denominal adjectives
+
+## data_structure.csv
+
+Structure of RuDénom database
 
 ## Web_scraping
 
@@ -19,8 +27,6 @@ Supplementary data
 2. open RusCorpora pages from a list of queries (helper function)
 
 3. lists of nouns modified by each adjective
-
-4. years when each adjective was attested
 
 ## Feature engineering
 
