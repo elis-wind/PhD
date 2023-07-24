@@ -6,9 +6,9 @@
 
 **Input**
 
-- `corpora.txt`: the list of subcorpora to extraxt adjectives from
+- `corpora.txt`: the list of sub-corpora to extract adjectives from
 - `segments.txt`: the list of final segments of adjectives to extract
-- `prefix.txt`: the list of caracters to search before each segment
+- `prefix.txt`: the list of characters to search before each segment
 
 **Output**
 
@@ -23,12 +23,12 @@
 
 **Input**
 
-- `corpora.txt`: the list of subcorpora to extraxt adjectives from
-- `word_list.txt`: the list of words for which frequencies should be extracted from each subcorpora
+- `corpora.txt`: the list of sub-corpora to extract adjectives from
+- `word_list.txt`: the list of words for which frequencies should be extracted from each sub-corpora
 
 **Output**
 
-- `out.txt`: a file with words and their frequencies per each subcorpus
+- `out.txt`: a file with words and their frequencies per each sub-corpus
 
 ## `get_context.py`
 
@@ -40,4 +40,4 @@
 
 **Output**
 
-- A .txt file per word with all the contexts availble on the page
+- A .txt file per word with all the contexts available on the page
