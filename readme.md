@@ -34,7 +34,7 @@ Supplementary data
 
 2. scores of Animacy
 
-## Subcorpora
+## Sub-corpora
 
 Scripts and .csv files with 3 sub-corpora:
 
