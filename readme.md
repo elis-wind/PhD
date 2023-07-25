@@ -33,3 +33,13 @@ Supplementary data
 1. scores of Nativeness
 
 2. scores of Animacy
+
+## Subcorpora
+
+Scripts and .csv files with 3 sub-corpora:
+
+1. high frequency data
+
+2. low frequency data
+
+3. doublets data
