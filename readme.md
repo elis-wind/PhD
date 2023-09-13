@@ -20,11 +20,11 @@ DEPRECATED since the old version of RusCorpora is no longer maintained
 
 3. contexts for each adjective or noun
 
-## Data_constitution
-
-Supplementary data
+## Supplementary_data
 
 1. lists of nouns modified by each adjective
+
+2. parsable and non parsable adjectives
 
 ## Feature engineering
 
